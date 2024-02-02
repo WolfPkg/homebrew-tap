@@ -9,7 +9,7 @@ class Foma < Formula
   head "https://github.com/mhulden/foma.git", branch: "master"
 
   bottle do
-    root_url "https://github.com/WolfPkg/homebrew-tap/releases/download/foma-0.10.0+s319"
+    root_url "https://github.com/WolfPkg/homebrew-tap-nightly/releases/download/foma-0.10.0+s319"
     sha256 cellar: :any,                 ventura:      "3e75b193bc3b6123d6e72fcad2457f8fb6ae5e712afd61a6037815a7b95bc5f5"
     sha256 cellar: :any_skip_relocation, x86_64_linux: "a240d8cf9b46f5c33606be49236386646c8ea7b348ded69a758a24cdb27f46fb"
   end

@@ -2,9 +2,9 @@
 
 ## How do I install these formulae?
 
-`brew install wolfpkg/tap/<formula>`
+`brew install wolfpkg/tap-nightly/<formula>`
 
-Or `brew tap wolfpkg/tap` and then `brew install <formula>`.
+Or `brew tap wolfpkg/tap-nightly` and then `brew install <formula>`.
 
 ## Documentation
 
