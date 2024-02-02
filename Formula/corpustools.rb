@@ -10,6 +10,12 @@ class Corpustools < Formula
 
   head "https://github.com/giellalt/CorpusTools.git", branch: "main"
 
+  bottle do
+    root_url "https://github.com/WolfPkg/homebrew-tap-nightly/releases/download/corpustools-1.0.3+g2497-e83c5518"
+    sha256 cellar: :any,                 ventura:      "8423c5cf0f098d383705a60cd9ee309e3034a89932f49a7462f90e9a131c85c5"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "2988506bb31b9c289e795eb466defb257277f2d4f9576296a1aa4a3d930887b6"
+  end
+
   depends_on "libxml2"
   depends_on "libxslt"
   depends_on "python3"
