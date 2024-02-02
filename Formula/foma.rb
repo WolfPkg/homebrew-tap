@@ -2,7 +2,7 @@ class Foma < Formula
   desc "Multi-purpose finite-state toolkit"
   homepage "https://github.com/mhulden/foma"
   url "https://apertium.projectjj.com/apt/nightly/source/foma/foma_0.10.0+s319.orig.tar.bz2"
-  version "0.10.0"
+  version "0.10.0+s319"
   sha256 "e1e1fe43890619fa7209b06a750de91a54c4d4e913d1342860c057b1831b522b"
   license "Apache-2.0"
 
@@ -18,6 +18,7 @@ class Foma < Formula
   depends_on "cmake" => :build
   depends_on "flex" => :build
   depends_on "pkg-config" => :build
+
   depends_on "readline"
   depends_on "zlib"
 
